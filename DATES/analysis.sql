@@ -5,6 +5,7 @@ LEFT JOIN attendance a on e.emp_id = a.emp_id;
 
 
 
+
 -- Shows all employees who have related orders and attendance using (INNER JOIN)
 SELECT * FROM employees e 
 join orders using(emp_id)
@@ -102,3 +103,4 @@ SELECT
 	sum(amount) as total
 from orders
 group by EXTRACT(YEAR FROM ORDER_DATE);
+
