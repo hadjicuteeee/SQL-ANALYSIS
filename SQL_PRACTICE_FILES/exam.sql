@@ -8,7 +8,6 @@ WITH student1 AS (
 	INNER JOIN exams e ON s.student_id = e.student_id
 	GROUP BY s.name
 ),
-	
 honor AS (
     
 	SELECT 
