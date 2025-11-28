@@ -22,6 +22,7 @@ honor AS (
 	FROM student1
 ),
 shin AS (
+	
    
 	SELECT 
 		honorable,
