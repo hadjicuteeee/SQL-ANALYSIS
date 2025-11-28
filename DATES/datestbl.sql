@@ -6,6 +6,7 @@ hire_date DATE,
 birth_date DATE
 );
 
+
 CREATE TABLE orders(
 order_id SERIAL PRIMARY KEY,
 emp_id INT
@@ -37,4 +38,5 @@ INSERT INTO attendance(emp_id, check_in, check_out) VALUES
 (1, '2024-10-04 08:59:00', '2024-10-04 17:12:00'),
 (1, '2024-10-05 09:10:00', '2024-10-05 16:45:00'),
 (2, '2024-10-04 10:00:00', '2024-10-04 18:00:00'),
+
 (3, '2024-10-03 08:30:00', '2024-10-03 17:05:00');
